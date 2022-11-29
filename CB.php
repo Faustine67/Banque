@@ -29,7 +29,7 @@ public function getDevise(){
 
 public function getTitulaire(){
     return $this->_titulaire;
-} 
+}  
 
 public function crediter($somme){
     $this-> _solde+=$somme;
